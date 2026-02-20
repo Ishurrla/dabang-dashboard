@@ -19,7 +19,7 @@ export function DashboardLayout({ children }) {
 
       <div className="md:ml-[220px] flex flex-col min-h-screen">
         <Navbar onMenuToggle={() => setSidebarOpen((o) => !o)} />
-        <main className="flex-1 p-4 md:p-6">
+        <main className="flex-1 p-4 md:p-6 max-w-[1600px] w-full mx-auto">
           {children}
         </main>
       </div>

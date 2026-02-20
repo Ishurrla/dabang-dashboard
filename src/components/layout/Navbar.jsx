@@ -11,7 +11,7 @@ export function Navbar({ onMenuToggle }) {
   const [searchOpen, setSearchOpen] = useState(false);
 
   return (
-    <header className="bg-white border-b border-gray-100 shrink-0">
+    <header className="bg-white border-b border-gray-100 shrink-0 sticky top-0 z-100">
       <div className="h-16 px-4 md:px-6 flex items-center justify-between gap-2">
 
         {/* Left: hamburger (mobile only) + title */}
